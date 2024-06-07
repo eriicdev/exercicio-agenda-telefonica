@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="imgd/phone.png" alt="tell">
+            <h1>SWAT AGENDA</h1>
+        </header>
+        <form id="form-dados">
+            <input id="nome" type="text" placeholder="Nome" required>
+            <input id="telefone" type="tel" placeholder="Telefone" required>
+            <button type="submit">ADICIONAR</button>
+        </form>
+    </div>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total de Numeros:</td>
+                    <td class="Numeros" id="total-numeros"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <footer>
+        <div class="rodape">
+            <p>
+                &copy; SWAT Telefonia - <s>Quase</s> Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
